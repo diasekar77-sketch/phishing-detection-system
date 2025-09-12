@@ -1,1 +1,7 @@
-/backend/model.pkl
+﻿venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+.venv/
