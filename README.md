@@ -64,7 +64,7 @@ The diagram below details the end-to-end data transmission pipeline. When a user
 ┌──────────────────────────────┐
 │     extension/popup.html     │ ──► Triggers Interactive Threat UI & Overlays Block Page
 
----
+```
 
 phishing-website-detection/
 ├── extension/                  # Client-Side WebExtension Layer
@@ -91,6 +91,7 @@ phishing-website-detection/
 Navigate to the backend directory, isolate your dependencies, and run the classification microservice:
 ```bash
 cd backend
+```
 
 # Create and activate a clean Python virtual environment
 python -m venv venv
